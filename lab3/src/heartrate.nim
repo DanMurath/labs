@@ -42,6 +42,7 @@ class Participant:
         this.data = newHRData()
 
         this.data.setF(this.fp)
+        this.hr = this.hRate()
 
     method hRate(): int =
         this.data.hRate()
